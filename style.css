@@ -1,0 +1,63 @@
+ 
+        body { /* Defines styles for the body element */
+            font-family: Arial, sans-serif; /* Sets the font for text on the page */
+        }
+		.wrapper { /* This code starts a CSS rule for elements with class "wrapper" */
+		width: auto;
+		height: auto;
+		background-color: #d98cb3;
+		padding: 20px;
+		border-color: black;
+		border-style: groove;
+		border-width: 5px;
+		}
+        .question { /* Defines styles for elements with the "question" class */
+            font-size: 30px; /* Sets the font size */
+			font-weight: bold;
+            margin-bottom: 10px; /* Sets the bottom margin */
+        }
+        .options { /* Defines styles for elements with the "options" class */
+		    font-size: 20px;
+            list-style: none; 
+			font-weight: bold;
+            padding: 0; 
+            margin: 0; 
+        }
+        .options li { /* Defines styles for li elements within an element with the "options" class */
+            margin-bottom: 15px; /* Sets the bottom margin */
+        }
+        .options input[type="radio"] { /* Defines styles for radio buttons within an element with the "options" class */
+            margin-right: 7px; /* Sets the right margin */
+        }
+		
+		button {
+			width: 200px;
+			height: 50px;
+			background: linear-gradient(to bottom, #ffffff 0%, #d98cb3 100%);
+			font-weight: bold;
+			font-family: Arial, sans-serif;
+			font-size: 20px;
+		}
+		.sbutton {
+			width: 200px;
+			height: 50px;
+			background: linear-gradient(to bottom, #ffffff 0%, #d98cb3 100%);
+			font-weight: bold;
+			font-family: Arial, sans-serif;
+			font-size: 20px;
+		}
+		.navbuttons{
+			width: 100;
+			height: 50px;
+			background: linear-gradient(to bottom, #ffffff 0%, #d98cb3 100%);
+			font-weight: bold;
+			border-radius: 80%;
+			font-family: Arial, sans-serif;
+			font-size: 20px;
+		}
+		
+        .result { /* Defines styles for elements with the "result" class*/
+            font-size: 20px; /* Sets the font size */
+            font-weight: bold; /* Sets text bolding */
+            margin-top: 10px; /* Sets top margin */
+        }

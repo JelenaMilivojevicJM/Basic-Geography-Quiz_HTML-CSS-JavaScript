@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> About Page </title>
+<meta name="description" content="Page Description Here" /> <!-- This line specifies a description for the page, which may be used by search engines -->
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/> <!-- This line specifies the character encoding for the HTML document -->
+<meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- This line specifies how the page should be scaled on different devices --> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+<table width="100%" height="50" align="center" border="0" cellspacing="5" cellpadding="5" bgcolor="#000000">
+	<tr>
+		<td align="left">
+			<table width="550" border="0" align="center" cellspacing="5" cellpadding="5">
+				<tr>
+					<td width="100" align="center"><img src="earth.gif" width="60" height="60"></td>
+					<td width="100" align="center"><font face="Verdana, Geneva, sens-serif"><h2><a href="Quiz.html" style="color: white;">Quiz</a></h2></font></td>
+					<td width="100" align="center"><font face="Verdana, Geneva, sens-serif"><h2><a href="Learn.html" style="color: white;">Learn</a></h2></font></td>
+					<td width="100" align="center"><font face="Verdana, Geneva, sens-serif"><h2><a href="Exit.html" style="color: white;">Exit</a></h2></font></td>
+					<td width="100" align="center"><img src="butterfly.gif" width="90%" height="60"></td>
+					</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+<div class="wrapper">
+<img src="about.png" width="100%" height="80%">
+</div>
+<div class="wrapper">
+<table width="100%" height="50" border ="0" cellspacing="2" cellpadding="2" bgcolor="#d98cb3">
+	<tr>
+		<td align="left"><font face="Verdana, Geneva, sens-serif">The <em><strong>"Basic Geography Quiz"</strong></em></font></td></tr>
+	<tr>
+		<td align="left"><font face="Verdana, Geneva, sens-serif">The goal of the quiz is to test the user’s knowledge about the basic geography facts.🗺 🌎 🌍 🌏</font></td>
+	</tr>
+	<tr>
+	<td align="left"><font face="Verdana, Geneva, sens-serif">The code is written in HTML, CSS, and JavaScript.📝</font>
+	</td>
+	</tr>
+	<tr>
+	<td align="left"><font face="Verdana, Geneva, sens-serif">The Quiz file contains 15 questions, 3 answer options for each question, and a submit button.<br>
+	The questions ask the user to select the correct answer. The user can choose between three options.<br>
+	When the user clicks on the "Submit Answers" button at the end, the checkAnswers() function is called.<br>
+	The checkAnswers() function checks for the value of the selected radio button with the appropriate name attribute (for example, "answer1").🔎<br>
+	If the value of the selected radio button is right, then the correctAnswers variable is incremented by 1, and so on.<br>
+	For example, if the user has only one correct answer, the result is displayed as "You got 1 out of 15 questions correct!".✔️</font>
+ </td>
+ </tr>
+ <tr>
+	<td align="left"><font face="Verdana, Geneva, sens-serif">The Quiz file is related to the About page file, the Exit page file and the Learn page file.🌐<br>
+	The relationship is created by hyperlinking appropriate words 🔑.<br>
+	The About page file contains basic information about the quiz.📋<br>
+	The Exit page file contains a goodbye message.👋<br>
+	The Learn page file contains the explanation of the correct answers.📖<br>
+	Each file contains navigation buttons.</font>
+	</td>
+	</tr>
+</table>
+</div>
+<div class="wrapper">
+<!-- Nagivation Buttons-->
+<table width="100%" height="60" align="center" border="0" cellspacing="5" cellpadding="5" bgcolor="#d98cb3">
+<tr><td align="left"><button id="topbutton" class="navbuttons">Go to Top</button>
+<script>
+    document.getElementById("topbutton").onclick = function() {
+        window.scrollTo(0, 0);
+    };
+</script>
+</td>
+<td align="center"><img src="earth2.gif" width="100" height="80"></td>
+<td align="right">
+<button id="startbutton" class="navbuttons">Start Quiz</button>
+<script>
+    document.getElementById("startbutton").onclick = function() {
+       window.location.href = "Quiz.html";
+    };
+</script>
+</td>
+</tr>
+</table>
+</div>
+<div class="wrapper">
+<table width="100%" height="50" border ="0" cellspacing="5"bgcolor="#000000">
+	<tr>
+	<td align="center"><em><h4><font color="white">All rights reserved <br>@ 2023 JM's Web World</font></h4></em></td>
+	</tr>
+</table>
+</div>
+</body>
+</html>
